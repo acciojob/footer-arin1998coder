@@ -1,1 +1,163 @@
 /* your code here */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+     width: 100vw;
+   position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    height: 380px;
+    padding-top: 25px;
+}
+
+.top{
+    display: flex;
+   
+}
+
+.top div{
+    flex: 1;
+}
+
+.media-icons{
+    text-align: right;
+    padding-right: 30px;
+}
+
+.logo-details{
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.fa-brands{
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.link-boxes{
+    display: flex;
+    margin-top: 30px;
+}
+
+.link-boxes div{
+    flex: 1;
+    
+    margin: 10px;
+    
+}
+
+li{
+    list-style-type: none;
+    font-size: 18px;
+}
+
+li a{
+    color: rgb(180, 176, 176);
+    text-decoration: none;
+    line-height: 35px;
+    
+}
+
+li p{
+    color:  rgb(180, 176, 176);
+    line-height: 20px;
+}
+
+h3{
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.links{
+    position: relative;
+}
+
+.services{
+    position: relative;
+}
+
+.other-services{
+    position: relative;
+}
+
+.contact{
+    position: relative;
+}
+
+.links h3{
+    width: 60px;
+    
+}
+
+
+
+.links h3:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    position: absolute;
+    width: 42px;
+     /* This will center the border. */
+    top:50px;
+    left: 40px;
+    border-bottom: 1px solid white; /* This creates the border. Replace black with whatever color you want. */
+}
+
+
+.services h3:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    position: absolute;
+    width: 35px;
+     /* This will center the border. */
+    top:50px;
+    left: 40px;
+    border-bottom: 1px solid white; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.other-services h3:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    position: absolute;
+    width: 35px;
+     /* This will center the border. */
+    top:50px;
+    left: 40px;
+    border-bottom: 1px solid white; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.contact h3:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    position: absolute;
+    width: 35px;
+     /* This will center the border. */
+    top:50px;
+    left: 40px;
+    border-bottom: 1px solid white; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.bottom-details{
+    display: flex;
+    background-color: rgb(64, 76, 98);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    color: aliceblue;
+}
+
+.bottom-details div{
+    flex: 1;
+    padding: 6px;
+}
+
+.bottom-details .privacy{
+    text-align: right;
+    padding-right: 100px;
+}
+
+.bottom-details .company-est{
+    padding-left: 50px;
+}
+
+
